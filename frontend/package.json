@@ -5,7 +5,7 @@
   "type": "module",
 
   "engines": {
-  "node": "20.x"
+  "node": "18.x"
   },
 
   "scripts": {
@@ -45,7 +45,7 @@
     "wouter": "^3.3.5",
     "zod": "^3.23.8",
 
-    "react-qr-code": "^2.0.11",
+    "qr-code.react": "^3.1.0",
 
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.1",
