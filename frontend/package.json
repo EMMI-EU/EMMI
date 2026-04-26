@@ -43,7 +43,7 @@
     "jspdf": "^2.5.1",
     "@stripe/react-stripe-js": "^2.4.0",
     "@stripe/stripe-js": "^1.46.0",
-    "react-paypal-js": "^8.1.2"
+    "@paypal/react-paypal-js": "^8.0.1"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.0.0",
