@@ -13,7 +13,10 @@ import { contactRouter } from "./routes/contact.routes.js";
 import paymentsRouter from "./routes/payment.routes.js";
 
 const app = express();
-
+app.use(cors({
+  origin: true,
+  credentials: true
+}));
 // Enable only when the app runs behind a trusted reverse proxy (Render/Cloudflare/Nginx).
 if (env.TRUST_PROXY) {
   app.set("trust proxy", 1);
